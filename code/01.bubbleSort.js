@@ -12,6 +12,8 @@ function bubbleSort(arr) {
             }
         }
     }
+    
+    return arr;
 }
 
 util(bubbleSort);

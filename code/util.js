@@ -7,6 +7,5 @@ module.exports = function (sort) {
     console.log(arr);
     console.log('*'.repeat(20) + os.EOL);
 
-    sort(arr);
-    console.log(arr);
+    console.log(sort(arr));
 };

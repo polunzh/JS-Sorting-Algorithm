@@ -16,6 +16,8 @@ function selectionSort(arr) {
         arr[length - i - 1] = arr[flag];
         arr[flag] = temp;
     }
+
+    return arr;
 }
 
 util(selectionSort);
