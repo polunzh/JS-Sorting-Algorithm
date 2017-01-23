@@ -1,6 +1,4 @@
-const util = require('./util.js');
-
-function selectionSort(arr) {
+module.exports = function selectionSort(arr) {
     const length = arr.length;
     let flag, temp;
 
@@ -18,6 +16,4 @@ function selectionSort(arr) {
     }
 
     return arr;
-}
-
-util(selectionSort);
+};

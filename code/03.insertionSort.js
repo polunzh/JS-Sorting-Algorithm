@@ -1,6 +1,4 @@
-const util = require('./util.js');
-
-function insertionSort(arr) {
+module.exports = function insertionSort(arr) {
     const length = arr.length;
 
     let prefixIndex,
@@ -19,6 +17,4 @@ function insertionSort(arr) {
     }
 
     return arr;
-}
-
-util(insertionSort);
+};

@@ -1,6 +1,4 @@
-const util = require('./util.js');
-
-function bubbleSort(arr) {
+module.exports = function bubbleSort(arr) {
     const length = arr.length;
 
     for (let i = 0; i < length - 1; i++) {
@@ -14,6 +12,4 @@ function bubbleSort(arr) {
     }
     
     return arr;
-}
-
-util(bubbleSort);
+};
